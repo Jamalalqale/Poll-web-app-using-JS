@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <servlet>
+        <servlet-name>server1</servlet-name>
+        <servlet-class>com.jm.controller.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server1</servlet-name>
+        <url-pattern>/loginAdmin</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    <servlet>
+        <servlet-name>server2</servlet-name>
+        <servlet-class>com.jm.controller.controlAdminServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server2</servlet-name>
+        <url-pattern>/addmanager</url-pattern>
+    </servlet-mapping>
+  
+  
+    <servlet>
+        <servlet-name>server3</servlet-name>
+        <servlet-class>com.jm.controller.editManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server3</servlet-name>
+        <url-pattern>/editManager</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+
+  
+   
+  
+  
+    <servlet>
+        <servlet-name>server6</servlet-name>
+        <servlet-class>com.jm.controller.loginManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server6</servlet-name>
+        <url-pattern>/loginmanagerform</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server7</servlet-name>
+        <servlet-class>com.jm.controller.addQuestionnaireServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server7</servlet-name>
+        <url-pattern>/addQuestionnaire</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    <servlet>
+        <servlet-name>server8</servlet-name>
+        <servlet-class>com.jm.controller.addShortQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server8</servlet-name>
+        <url-pattern>/addShortQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server9</servlet-name>
+        <servlet-class>com.jm.controller.addLongQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server9</servlet-name>
+        <url-pattern>/addLongQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server10</servlet-name>
+        <servlet-class>com.jm.controller.addRadioQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server10</servlet-name>
+        <url-pattern>/addRadioQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    <servlet>
+        <servlet-name>server11</servlet-name>
+        <servlet-class>com.jm.controller.addCheckBoxQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server11</servlet-name>
+        <url-pattern>/addCheckboxQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    <servlet>
+        <servlet-name>server12</servlet-name>
+        <servlet-class>com.jm.controller.showQuestionnaireServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server12</servlet-name>
+        <url-pattern>/showQuestionnaire</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server13</servlet-name>
+        <servlet-class>com.jm.controller.editDeleteQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server13</servlet-name>
+        <url-pattern>/editDeleteQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    <servlet>
+        <servlet-name>server14</servlet-name>
+        <servlet-class>com.jm.controller.changeQuestionnairePrivacyServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server14</servlet-name>
+        <url-pattern>/changeQuestionnairePrivacy</url-pattern>
+    </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>server15</servlet-name>
+        <servlet-class>com.jm.controller.deleteQuestionnaireUserServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server15</servlet-name>
+        <url-pattern>/deleteQuestionnaireUser</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server16</servlet-name>
+        <servlet-class>com.jm.controller.editQuestionnaireUserServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server16</servlet-name>
+        <url-pattern>/editQuestionnaireUser</url-pattern>
+    </servlet-mapping>
+  
+  
+    <servlet>
+        <servlet-name>server17</servlet-name>
+        <servlet-class>com.jm.controller.addQuestionnaireUserServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server17</servlet-name>
+        <url-pattern>/addQuestionnaireUser</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    
+    <servlet>
+        <servlet-name>server18</servlet-name>
+        <servlet-class>com.jm.controller.editQuesionnaireTitleServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server18</servlet-name>
+        <url-pattern>/editQuesionnaireTitle</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    
+    <servlet>
+        <servlet-name>server19</servlet-name>
+        <servlet-class>com.jm.controller.updateQuestionServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server19</servlet-name>
+        <url-pattern>/updateQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+    
+    <servlet>
+        <servlet-name>server20</servlet-name>
+        <servlet-class>com.jm.controller.EnDisDelQuestinnaireServlet</servlet-class>
+                                     
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server20</servlet-name>
+        <url-pattern>/EnDisDelQuestinnaire</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    
+  
+  
+   <servlet>
+        <servlet-name>server21</servlet-name>
+        <servlet-class>com.jm.controller.deleteManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server21</servlet-name>
+        <url-pattern>/deletemanager</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+        <servlet-name>server22</servlet-name>
+        <servlet-class>com.jm.controller.menuBarServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server22</servlet-name>
+        <url-pattern>/menueBar</url-pattern>
+    </servlet-mapping>
+  
+ 
+ 
+ 
+  <servlet>
+        <servlet-name>server23</servlet-name>
+        <servlet-class>com.jm.controller.checkquestionnaireServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server23</servlet-name>
+        <url-pattern>/checkquestionnaire</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server24</servlet-name>
+        <servlet-class>com.jm.controller.nextQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server24</servlet-name>
+        <url-pattern>/nextQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+<servlet>
+        <servlet-name>server25</servlet-name>
+        <servlet-class>com.jm.controller.submitAnswersServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server25</servlet-name>
+        <url-pattern>/submitAnswers</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+        <servlet-name>server26</servlet-name>
+        <servlet-class>com.jm.controller.authServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server26</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+ 
+  <servlet>
+        <servlet-name>server27</servlet-name>
+        <servlet-class>com.jm.controller.display_prticipant_answersServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server27</servlet-name>
+        <url-pattern>/display_prticipant_answers</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+        <servlet-name>server28</servlet-name>
+        <servlet-class>com.jm.controller.addNumberQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server28</servlet-name>
+        <url-pattern>/addNumberQuestion</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>server29</servlet-name>
+        <servlet-class>com.jm.controller.addDateQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server29</servlet-name>
+        <url-pattern>/addDateQuestion</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+   <servlet>
+        <servlet-name>server30</servlet-name>
+        <servlet-class>com.jm.controller.adminMenuServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>server30</servlet-name>
+        <url-pattern>/adminMenu</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>   
